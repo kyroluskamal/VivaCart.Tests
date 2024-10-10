@@ -1,0 +1,1075 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\VivaCart.Shop\\VivaCart.Tests\\ComponentTest\\Dashboard\\AdminAuth.Api.Tests\\AdminAuth.Api.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseCore\\BaseCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseCore\\BaseCore.csproj",
+        "projectName": "BaseCore",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseCore\\BaseCore.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.7.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseRepositoryEF\\BaseRepositoryEF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseRepositoryEF\\BaseRepositoryEF.csproj",
+        "projectName": "BaseRepositoryEF",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseRepositoryEF\\BaseRepositoryEF.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseRepositoryEF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\IRespositoryInterfaces\\IRespositoryInterfaces.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\IRespositoryInterfaces\\IRespositoryInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\CQRS.Base\\CQRS.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\CQRS.Base\\CQRS.Base.csproj",
+        "projectName": "CQRS.Base",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\CQRS.Base\\CQRS.Base.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\CQRS.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseRepositoryEF\\BaseRepositoryEF.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseRepositoryEF\\BaseRepositoryEF.csproj"
+              },
+              "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\ExceptionHandling\\ExceptionHandling.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\ExceptionHandling\\ExceptionHandling.csproj"
+              },
+              "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\InfrastructureServices\\InfrastructureServices.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\InfrastructureServices\\InfrastructureServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\ExceptionHandling\\ExceptionHandling.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\ExceptionHandling\\ExceptionHandling.csproj",
+        "projectName": "ExceptionHandling",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\ExceptionHandling\\ExceptionHandling.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\ExceptionHandling\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\InfrastructureServices\\InfrastructureServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\InfrastructureServices\\InfrastructureServices.csproj",
+        "projectName": "InfrastructureServices",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\InfrastructureServices\\InfrastructureServices.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\InfrastructureServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\IRespositoryInterfaces\\IRespositoryInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\IRespositoryInterfaces\\IRespositoryInterfaces.csproj",
+        "projectName": "IRespositoryInterfaces",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\IRespositoryInterfaces\\IRespositoryInterfaces.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\IRespositoryInterfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\PresnetationLayerBase\\PresnetationLayerBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\PresnetationLayerBase\\PresnetationLayerBase.csproj",
+        "projectName": "PresnetationLayerBase",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\PresnetationLayerBase\\PresnetationLayerBase.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\PresnetationLayerBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\CQRS.Base\\CQRS.Base.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\CQRS.Base\\CQRS.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\SharedAuth\\SharedAuth.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\SharedAuth\\SharedAuth.csproj",
+        "projectName": "SharedAuth",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\SharedAuth\\SharedAuth.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\SharedAuth\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseCore\\BaseCore.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\BaseCore\\BaseCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.66.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.66.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "OpenIddict.AspNetCore": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "OpenIddict.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "OpenIddict.EntityFrameworkCore.Models": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Api\\AdminAuth.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Api\\AdminAuth.Api.csproj",
+        "projectName": "AdminAuth.Api",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Api\\AdminAuth.Api.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Application\\AdminAuth.Application.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Application\\AdminAuth.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.12.1, )"
+            },
+            "EFCore.AutomaticMigrations.NetTopologySuite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.1, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Application\\AdminAuth.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Application\\AdminAuth.Application.csproj",
+        "projectName": "AdminAuth.Application",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Application\\AdminAuth.Application.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\PresnetationLayerBase\\PresnetationLayerBase.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\PresnetationLayerBase\\PresnetationLayerBase.csproj"
+              },
+              "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Infrastructure\\AdminAuth.Infrastructure.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Infrastructure\\AdminAuth.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Core\\AdminAuth.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Core\\AdminAuth.Core.csproj",
+        "projectName": "AdminAuth.Core",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Core\\AdminAuth.Core.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\SharedAuth\\SharedAuth.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\CrossCuttingLibs\\SharedAuth\\SharedAuth.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Infrastructure\\AdminAuth.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Infrastructure\\AdminAuth.Infrastructure.csproj",
+        "projectName": "AdminAuth.Infrastructure",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Infrastructure\\AdminAuth.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Core\\AdminAuth.Core.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Core\\AdminAuth.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VivaCart.Shop\\VivaCart.Tests\\ComponentTest\\Dashboard\\AdminAuth.Api.Tests\\AdminAuth.Api.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VivaCart.Shop\\VivaCart.Tests\\ComponentTest\\Dashboard\\AdminAuth.Api.Tests\\AdminAuth.Api.Tests.csproj",
+        "projectName": "AdminAuth.Api.Tests",
+        "projectPath": "D:\\VivaCart.Shop\\VivaCart.Tests\\ComponentTest\\Dashboard\\AdminAuth.Api.Tests\\AdminAuth.Api.Tests.csproj",
+        "packagesPath": "C:\\Users\\kyrol\\.nuget\\packages\\",
+        "outputPath": "D:\\VivaCart.Shop\\VivaCart.Tests\\ComponentTest\\Dashboard\\AdminAuth.Api.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kyrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Api\\AdminAuth.Api.csproj": {
+                "projectPath": "D:\\VivaCart.Shop\\VivaCart.Back\\Dashboard\\AdminAuth\\AdminAuth.Api\\AdminAuth.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
